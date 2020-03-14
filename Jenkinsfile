@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh './jenkins/scripts/deliver.sh' # 我是注释
+                sh './jenkins/scripts/deliver.sh' // 我是注释
             }
         }
     }
